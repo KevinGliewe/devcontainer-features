@@ -1,0 +1,16 @@
+{
+    "name": "Universal Ctags",
+    "id": "universal-ctags",
+    "version": "1.0.0",
+    "description": "A tool that generates an index (or tag) file of names found in source files.",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Version to install."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
