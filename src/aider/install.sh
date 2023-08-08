@@ -4,8 +4,6 @@ set -e
 
 source ./library_scripts.sh
 
-dpkg -l | grep universal-ctags || (apt update && apt install universal-ctags -y -qq)
-
 # nanolayer is a cli utility which keeps container layers as small as possible
 # source code: https://github.com/devcontainers-contrib/nanolayer
 # `ensure_nanolayer` is a bash function that will find any existing nanolayer installations, 
