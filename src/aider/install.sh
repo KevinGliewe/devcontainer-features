@@ -9,12 +9,12 @@ source ./library_scripts.sh
 # `ensure_nanolayer` is a bash function that will find any existing nanolayer installations, 
 # and if missing - will download a temporary copy that automatically get deleted at the end 
 # of the script
-ensure_nanolayer nanolayer_location "v0.4.45"
+ensure_nanolayer nanolayer_location "v0.5.6"
 
 $nanolayer_location \
     install \
     devcontainer-feature \
-    "ghcr.io/devcontainers-contrib/features/pipx-package:1.1.6" \
+    "ghcr.io/devcontainers-contrib/features/pipx-package:latest" \
     --option package='aider-chat' --option version="$VERSION"
     
 echo 'Done!'
