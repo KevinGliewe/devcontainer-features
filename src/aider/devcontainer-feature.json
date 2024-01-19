@@ -15,7 +15,6 @@
     },
     "installsAfter": [
         "ghcr.io/devcontainers-contrib/features/pipx-package",
-        "ghcr.io/devcontainers/features/python",
-        "ghcr.io/KevinGliewe/devcontainer-features/universal-ctags"
+        "ghcr.io/devcontainers/features/python"
     ]
 }
