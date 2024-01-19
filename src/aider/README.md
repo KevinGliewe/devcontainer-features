@@ -7,7 +7,7 @@ GPT powered coding in your terminal.
 
 ```json
 "features": {
-    "ghcr.io/KevinGliewe/devcontainer-features/aider:1": {}
+    "ghcr.io/KevinGliewe/devcontainer-features/aider:2": {}
 }
 ```
 
