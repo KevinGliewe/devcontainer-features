@@ -14,6 +14,6 @@ install_via_npm() {
     npm install -g --omit=dev $PACKAGE
 }
 
-install_via_npm anthropic-ai/claude-code@$VERSION
+install_via_npm @anthropic-ai/claude-code@$VERSION
 
 echo "Done!"
