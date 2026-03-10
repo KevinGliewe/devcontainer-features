@@ -1,7 +1,7 @@
 
-# Claude Code
+# Claude Code (claude-code)
 
-An agentic coding tool that lives in your terminal. [NPM](https://www.npmjs.com/package/@anthropic-ai/claude-code)
+An agentic coding tool that lives in your terminal.
 
 ## Example Usage
 
@@ -21,4 +21,4 @@ An agentic coding tool that lives in your terminal. [NPM](https://www.npmjs.com/
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/KevinGliewe/devcontainer-features/blob/main/src/aider/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/KevinGliewe/devcontainer-features/blob/main/src/claude-code/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
