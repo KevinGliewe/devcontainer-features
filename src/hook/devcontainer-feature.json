@@ -1,0 +1,17 @@
+{
+    "name": "Hook",
+    "id": "hook",
+    "version": "1.0.0",
+    "description": "A install hook, that executes the run command.",
+    "options": {
+        "run": {
+            "default": "printenv",
+            "description": "Command to execute during install step",
+            "proposals": [
+            ],
+            "type": "string"
+        }
+    },
+    "installsAfter": [
+    ]
+}
